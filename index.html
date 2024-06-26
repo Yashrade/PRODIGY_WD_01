@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+        <div class="hero-content">
+            <h1>Welcome to Our Landing Page</h1>
+            <p>Your success starts here</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </header>
+    <section id="about">
+        <h1>About Us</h1>
+        <p>We are a leading company in providing the best solutions for your needs. Our team of experts is dedicated to ensuring your success.</p>
+        <div class="about-content">
+            <img src="about-image.jpg" alt="About Us">
+            <div class="text">
+                <h2>Our Mission</h2>
+                <p>Our mission is to deliver exceptional service and solutions to our clients. We strive to innovate and exceed expectations in everything we do.</p>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <h1>Our Services</h1>
+        <div class="services-content">
+            <div class="service-item">
+                <h2>Service One</h2>
+                <p>We provide top-notch consulting services to help you achieve your goals.</p>
+            </div>
+            <div class="service-item">
+                <h2>Service Two</h2>
+                <p>Our development team can build custom solutions tailored to your needs.</p>
+            </div>
+            <div class="service-item">
+                <h2>Service Three</h2>
+                <p>We offer comprehensive training programs to empower your team.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Reach out to us through any of the methods below.</p>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h2>Our Office</h2>
+                <p>1234 Street Name, City, State, 12345</p>
+                <h2>Email Us</h2>
+                <p>info@ourcompany.com</p>
+                <h2>Call Us</h2>
+                <p>(123) 456-7890</p>
+            </div>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Our Company. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
